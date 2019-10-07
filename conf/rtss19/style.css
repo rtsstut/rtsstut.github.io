@@ -1,0 +1,34 @@
+body {
+  margin: 10px 40px;
+}
+
+h1 a img {
+  height: 60px;
+}
+
+.page-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 10px;
+}
+
+.page-text {
+  text-align: center;
+  line-height: 60px;
+}
+
+.page-head-b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-bottom: 10px;
+}
+
+.page-text-b {
+  text-align: center;
+  line-height: 60px;
+  margin-left: 20px
+}
