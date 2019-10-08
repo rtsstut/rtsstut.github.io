@@ -2,8 +2,9 @@ body {
   margin: 10px 40px;
 }
 
-h1 a img {
-  height: 60px;
+h1 {
+  color: #880000;
+  font-weight: 600;
 }
 
 .page-head {
@@ -11,12 +12,16 @@ h1 a img {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
-  margin-bottom: 10px;
 }
 
 .page-text {
   text-align: center;
-  line-height: 60px;
+  line-height: 50px;
+}
+
+.page-img > img {
+  height: 100px;
+  margin-top: 20px;
 }
 
 .page-head-b {
