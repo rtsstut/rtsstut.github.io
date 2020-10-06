@@ -1,0 +1,39 @@
+body {
+  margin: 10px 40px;
+}
+
+h1 {
+  color: #880000;
+  font-weight: 600;
+}
+
+.page-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.page-text {
+  text-align: center;
+  line-height: 50px;
+}
+
+.page-img > img {
+  height: 100px;
+  margin-top: 20px;
+}
+
+.page-head-b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-bottom: 10px;
+}
+
+.page-text-b {
+  text-align: center;
+  line-height: 60px;
+  margin-left: 20px
+}
